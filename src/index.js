@@ -4,6 +4,8 @@ import './index.css';
 import App from "./App";
 import { Auth0Provider } from "@auth0/auth0-react";
 
+//Create a Management API to get JWT tokens
+
 ReactDOM.render(
     <Auth0Provider
         domain="eseuri.eu.auth0.com"
